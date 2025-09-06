@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="output.css" />
     <title>food land</title>
   </head>
-  <body class="h-screen">
+  <body class="h-screen p-[80px]">
     <header class="flex px-8 py-8 justify-between">
       <div>
         <img src="./img/Foodieland..png" alt="" />
@@ -28,7 +28,7 @@
     </header>
     <div class="h-1 w-full bg-[#0000001A]"></div>
     <main>
-      <section class="flex pt-10 px-[75px]">
+      <section class="flex pt-10 px-[75px] mx-8">
         <div class="bg-[#E7FAFE] rounded-l-2xl flex-1 relative">
           <img
             class="absolute left-[550px] pt-[50px]"
@@ -85,7 +85,7 @@
         </div>
       </section>
 
-      <div class="flex flex-row justify-between px-8 py-8">
+      <div class="flex flex-row justify-between px-8 py-8 mx-8">
         <h1 class="font-bold text-[40px]">Categories</h1>
         <div
           class="w-50 h-15 text-[15px] bg-[#E7FAFE] rounded-2xl font-bold py-5 px-7"
@@ -93,40 +93,55 @@
           View All Categories
         </div>
       </div>
-      <section class="flex flex-row justify-between m-15">
-        <div>
-          <img src="./img/breakfast.png" alt="" />
+      <section
+        class="flex flex-row justify-between px-20 mb-[183px] mt-[130px] *:rounded-[30px] mx-8"
+      >
+        <div
+          class="flex flex-col bg-gradient-to-b from-transparent to-[#7082461A] w-[180px] justify-center items-center"
+        >
+          <img class="w-[100px] h-[100px]" src="./img/breakfast.png" alt="" />
           <span>Breakfast</span>
         </div>
 
-        <div>
-          <img src="./img/vegan.png" alt="" />
+        <div
+          class="flex flex-col bg-gradient-to-b from-transparent to-[#6CC63F1A] w-[180px] justify-center items-center"
+        >
+          <img class="w-[100px] h-[100px]" src="./img/vegan.png" alt="" />
           <span>Vegan</span>
         </div>
 
-        <div class="">
-          <img src="./img/meat.png" alt="" />
+        <div
+          class="flex flex-col bg-gradient-to-b from-transparent to-[#CC261B1A] w-[180px] justify-center items-center"
+        >
+          <img class="w-[100px] h-[100px]" src="./img/meat.png" alt="" />
           <span>Meat</span>
         </div>
-        <div>
-          <img src="./img/desert.png" alt="" />
+        <div
+          class="flex flex-col bg-gradient-to-b from-transparent to-[#F09E001A] w-[180px] justify-center items-center"
+        >
+          <img class="w-[100px] h-[100px]" src="./img/desert.png" alt="" />
           <span>Desert</span>
         </div>
-        <div>
-          <img src="./img/lunch.png" alt="" />
+        <div
+          class="flex flex-col bg-gradient-to-b from-transparent to-[#0000000D] w-[180px] justify-center items-center"
+        >
+          <img class="w-[100px] h-[100px]" src="./img/lunch.png" alt="" />
           <span>Lunch</span>
         </div>
-        <div class="">
-          <img src="./img/chocolate.png" alt="" />
+        <div
+          class="flex flex-col bg-gradient-to-b from-transparent to-[#0000000D] w-[180px] justify-center items-center"
+        >
+          <img class="w-[100px] h-[100px]" src="./img/chocolate.png" alt="" />
           <span>Chocolate</span>
         </div>
       </section>
 
       <section
-        class="grid grid-cols-3 gap-4 p-10 *:bg-[#E7F9FD] *:w-100 *:h-[434px] *:p-4 *:rounded-2xl"
+        class="grid grid-cols-3 gap-4 p-10 *:bg-gradient-to-b *:from-transparent *:to-[#E7F9FD] *:w-100 *:h-[434px] *:p-4 *:rounded-2xl"
       >
-        <div>
+        <div class="relative">
           <img src="./img/burger.png" alt="" />
+          <img class="absolute right-7 top-7" src="./img/qalbq.png" alt="" />
           <h2 class="font-bold pt-2 text-[20px]">
             Big and Juicy Wagyu Beef Cheeseburger
           </h2>
@@ -143,8 +158,9 @@
           </div>
         </div>
 
-        <div>
+        <div class="relative">
           <img src="./img/fish.png" alt="" />
+          <img class="absolute right-7 top-7" src="./img/qalbs.png" alt="" />
           <h2 class="font-bold pt-2 text-[20px]">
             Fresh Lime Roasted Salmon with Ginger Sauce
           </h2>
@@ -160,8 +176,9 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="relative">
           <img src="./img/pan.png" alt="" />
+          <img class="absolute right-7 top-7" src="./img/qalbs.png" alt="" />
           <h2 class="font-bold pt-2 text-[20px]">
             Strawberry Oatmeal Pancake with Honey Syrup
           </h2>
@@ -177,8 +194,9 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="relative">
           <img src="./img/salad.png" alt="" />
+          <img class="absolute right-7 top-7" src="./img/qalbq.png" alt="" />
           <h2 class="font-bold pt-2 text-[20px]">
             Fresh and Healthy Mixed Mayonnaise Salad
           </h2>
@@ -194,8 +212,9 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="relative">
           <img src="./img/meat2.png" alt="" />
+          <img class="absolute right-7 top-7" src="./img/qalbs.png" alt="" />
           <h2 class="font-bold pt-2 text-[20px]">
             Chicken Meatballs with Cream Cheese
           </h2>
@@ -211,12 +230,13 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="bg-gradient-to-b! from-transparent! to-transparent!">
           <img src="./img/Ads.png" alt="" />
         </div>
 
-        <div>
+        <div class="relative">
           <img src="./img/pancake.png" alt="" />
+          <img class="absolute right-7 top-7" src="./img/qalbq.png" alt="" />
           <h2 class="font-bold pt-2 text-[20px]">
             Fruity Pancake with Orange & Blueberry
           </h2>
@@ -232,8 +252,9 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="relative">
           <img src="./img/chikenn.png" alt="" />
+          <img class="absolute right-7 top-7" src="./img/qalbs.png" alt="" />
           <h2 class="font-bold pt-2 text-[20px]">
             The Best Easy One Pot Chicken and Rice
           </h2>
@@ -249,8 +270,9 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="relative">
           <img src="./img/spageti.png" alt="" />
+          <img class="absolute right-7 top-7" src="./img/qalbs.png" alt="" />
           <h2 class="font-bold pt-2 text-[20px]">
             The Creamiest Creamy Chicken and Bacon Pasta
           </h2>
@@ -270,39 +292,91 @@
 
       <section class="flex flex-row p-10">
         <div class="flex-1 px-10">
-          <h2 class="text-[35px] font-bold pt-30 w-[500px] ">Everyone can be a chef in their own kitchen</h2>
+          <h2 class="text-[35px] font-bold pt-30 w-[500px]">
+            Everyone can be a chef in their own kitchen
+          </h2>
           <p class="pt-10 font-light">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
             odit accusamus earum adipisci ut exercitationem hic, fugiat ullam
             labore, itaque possimus? Dolore aspernatur omnis accusantium ipsa
             similique unde tenetur perferendis.
           </p>
-          <div class="w-45 h-15 bg-black text-white rounded-2xl px-10 py-4 mt-10">Learn More</div>
+          <div
+            class="w-45 h-15 bg-black text-white rounded-2xl px-10 py-4 mt-10"
+          >
+            Learn More
+          </div>
         </div>
-        <div class="flex-1 bg-[#E7F9FD]">
-          <img src="./img/Group 880.png" alt="">
+        <div class="flex-1 bg-[#E7F9FD] rounded-r-2xl">
+          <img src="./img/Group 880.png" alt="" />
         </div>
       </section>
-      <section>
-        <div class="flex bg-[#E7F9FD] h-[442px] relative m-10">
-          <div class="flex flex-col justify-center items-center p-10 gap-6  bg-[#E7F9FD]">
-            <h2 class="text-[50px] font-bold "
-            >Deliciousness to your inbox</h2>
-            <p class="font-light text-center mb-[80px] ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil nam sequi, a quia explicabo suscipit atque quisquam voluptatum odit labore ea vitae excepturi sit nulla incidunt ducimus cumque. Tenetur, reprehenderit.</p>
-            <form  >
-            <input class="bg-white w-[480px] h-[80px] relative" type="email" placeholder="Your email address...">
-            <button class="absolute bg-black " type="submit">Subscribe</button>
+      <section class="rounded-4xl">
+        <div class="flex bg-[#E7F9FD] h-[442px] relative m-10 rounded-[40px]">
+          <div
+            class="flex flex-col justify-center items-center p-10 gap-6 bg-[#E7F9FD] rounded-[40px]"
+          >
+            <h2 class="text-[50px] font-bold">Deliciousness to your inbox</h2>
+            <p class="font-light text-center mb-[80px]">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+              nam sequi, a quia explicabo suscipit atque quisquam voluptatum
+              odit labore ea vitae excepturi sit nulla incidunt ducimus cumque.
+              Tenetur, reprehenderit.
+            </p>
+            <form class="bg-white rounded-2xl px-3">
+              <input
+                class="w-[480px] h-[80px] rounded-[24px] p-2"
+                type="email"
+                placeholder="Your email address..."
+              />
+              <button
+                class="bg-black text-white w-[160px] h-[60px] rounded-2xl p"
+                type="submit"
+              >
+                Subscribe
+              </button>
             </form>
 
-            <div class="absolute left-0 bottom-0 ">
-          <img src="./img/kisspng-salad-salad-fresh-food-healthylife-vegetables-vegetarian-5d42e3a7cb8543 1(1).png" alt="">
-        </div >
-        <div class="absolute right-0 bottom-0"><img src="./img/Photo-plate.png" alt=""></div>
-        </div>
+            <div class="absolute left-0 bottom-0">
+              <img
+                src="./img/kisspng-salad-salad-fresh-food-healthylife-vegetables-vegetarian-5d42e3a7cb8543 1(1).png"
+                alt=""
+              />
+            </div>
+            <div class="absolute right-0 bottom-0">
+              <img src="./img/Photo-plate.png" alt="" />
+            </div>
           </div>
-          
-        
+        </div>
       </section>
     </main>
+    <footer class="flex justify-between px-10 p-5">
+      <div class="flex flex-col gap-2">
+        <img class="w-[110px] h-5" src="./img/Foodieland..png" alt="" />
+        <p>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
+      </div>
+      <nav class="flex">
+        <ul class="flex flex-row gap-6">
+          <li>Home</li>
+          <li>Recipes</li>
+          <li>Blog</li>
+          <li>Contact</li>
+          <li>About us</li>
+        </ul>
+      </nav>
+    </footer>
+    <div class="h-1 w-full bg-[#0000001A]"></div>
+    <div class="flex flex-row justify-around p-5">
+        <div class="flex justify-center m-auto">
+          <h2>© 2020 Flowbase. Powered by Webflow</h2>
+        </div>
+        <div class="pr-18">
+      <div class="flex flex-row gap-8 size-[20px]">
+        <img src="./img/001-facebook.png" alt="" />
+        <img src="./img/Path.png" alt="" />
+        <img src="./img/004-instagram.png" alt="" />
+      </div>
+        </div>
+    </div>
   </body>
 </html>
